@@ -1,0 +1,30 @@
+/*Tudo que estiver em code será centralizado*/
+
+/*Display Flex*/
+.code {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Display Grid*/
+.code {
+    display: grid;
+    place-items: center;
+}
+
+/*Position Absolute*/
+.code {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Margin 0 Auto*/
+.code {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    margin: 0 auto;
+}
