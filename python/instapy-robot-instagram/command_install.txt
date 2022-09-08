@@ -1,0 +1,6 @@
+
+python -m pip install --upgrade pip
+pip install --upgrade setuptools
+pip install instapy
+Caso dê o problema de DLL:
+pip install protobuf==3.6.0
