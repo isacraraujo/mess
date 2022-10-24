@@ -1,0 +1,14 @@
+RegEx
+
+^  - para os começos de textos
+$  - fim dos textos
+[] - representa um carácter
+{} - representa o quantificador
++  - um número qualquer de ocorrência
+() - representa o grupo de resultados
+
+$3/$2/$1 - para procurar e substituir caracteres que contenham dentro do grupo [VS-Code]
+
+CPF:   057.017.961-08
+RegEx: [0-9]{3}[.][0-9]{3}[.][0-9]{3}[-][0-9]{2}
+

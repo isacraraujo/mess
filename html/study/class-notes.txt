@@ -1,0 +1,24 @@
+No terminal do windows execute:
+
+http-server -i -g
+
+(i - instalar |  g - global)
+
+http-server .
+
+(inicia o servidor do HTTP)
+
+http-server -c-1
+
+(c - é relacionado a cache  |  O número 1 é o tempo para guardar o cache)
+--------------------------------------
+
+dentro da pasta html
+(para criar o arquivo package.js)
+$ npm init -y
+
+(servidor nodejs)
+npm i ---save express@4.16.3 body-parser@1.18.2 -E  
+
+(Servidor em tempo real)
+npm i ---save-dev nodemon 
